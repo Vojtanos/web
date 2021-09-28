@@ -1,5 +1,7 @@
 function About() {
-    return <div className="bg-red-100" style={{height:"1000px"}}>Aboudsfasfdddt</div>
+    return <div className="bg-white text-black min-h-screen">
+      <h2>Vojtův web</h2>
+    </div>
   }
   
   export default About

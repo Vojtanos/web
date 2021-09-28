@@ -4,7 +4,7 @@ class NavBar extends React.Component {
   render() {
     return (
         <div>
-            <footer className="w-full h-40 bg-purple-100 mt-auto">
+            <footer className="w-screen h-40 bg-gray-800 mt-auto">
                 Footer
             </footer>
         </div>
