@@ -1,6 +1,6 @@
 function About() {
     return (
-        <article className="bg-white text-black min-h-screen">
+        <article className=" min-h-screen">
           <h1>Práce</h1>
           <hr className="pb-5"/>
           <p>

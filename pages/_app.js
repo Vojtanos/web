@@ -17,7 +17,7 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
 
       <Header />
-      <div className="container mx-auto h-auto bg-white max-w-screen-lg pb-10 lg:rounded-lg">
+      <div className="container mx-auto h-auto bg-white max-w-screen-lg pb-10 border">
         <div className="pt-3 px-5">
           <Component {...pageProps} /> 
         </div>
