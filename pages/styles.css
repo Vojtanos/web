@@ -1,0 +1,28 @@
+@layer base {
+  h1 {
+    @apply font-serif;
+    @apply text-4xl;
+    @apply font-bold;
+    @apply my-5;
+    @apply mb-1;
+    @apply text-purple-600;
+  }
+  h2 {
+    @apply font-serif;
+    @apply text-3xl;
+    @apply font-bold;
+    @apply text-purple-600;
+  }
+  h3 {
+    @apply font-serif;
+    @apply text-2xl;
+    @apply font-bold;
+    @apply text-purple-600;
+  }
+  p {
+    @apply font-mono;
+    @apply font-light;
+    @apply text-gray-700;
+    @apply text-lg;
+  }
+}

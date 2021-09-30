@@ -5,10 +5,11 @@ class Navbar extends Component {
 
     render(){
         return (
-            <nav className={`py-5 bg-gray-900 text-gray-300 ${this.props.hide}`}>
+          //<div className={`${this.props.none} delay-700`}>
+            <nav className={`py-5 bg-gray-900 text-gray-300 ${this.props.hide} ease-out duration-500 md:hidden`}>
               <ul className="flex flex-col items-center">
                 <hr className="w-full border-gray-600"/>
-                <li className="flex justify-center m-3"><Link href="/about">O mně</Link></li>
+                <li className="flex justify-center m-3"><Link href="/">O mně</Link></li>
                 <hr className="w-11/12 border-gray-600"/>
                 <li className="flex justify-center m-3"><Link href="/mywork">Práce</Link></li>
                 <hr className="w-11/12 border-gray-600"/>
@@ -17,6 +18,7 @@ class Navbar extends Component {
                 <li className="flex justify-center m-3"><Link href="/technology">Použité technologie</Link></li>
               </ul>
             </nav>
+          //</div>
         )}
 }
 
